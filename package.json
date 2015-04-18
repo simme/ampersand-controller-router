@@ -1,4 +1,29 @@
 {
   "name": "ampersand-controller-router",
-  "main": "router.js"
+  "main": "router.js",
+  "description": "Allows you to map \"controllers\" to routes.",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/simme/ampersand-controller-router"
+  },
+  "keywords": [
+    "ampersand",
+    "controller",
+    "router",
+    "mvc"
+  ],
+  "author": "Simon Ljungberg <hi@iamsim.me> (http://iamsim.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simme/ampersand-controller-router/issues"
+  },
+  "homepage": "https://github.com/simme/ampersand-controller-router",
+  "dependencies": {
+    "amp-defaults": "^1.0.1",
+    "ampersand-router": "^1.0.7"
+  }
 }
